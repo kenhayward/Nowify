@@ -56,9 +56,12 @@
   @media only screen and (min-width: 767px) {
     flex-flow: row nowrap;
 
-    &__cover,
+    &__cover {
+      width: 60%;
+      max-width: 495px;
+    }
     &__details {
-      width: 50%;
+      width: 40%;
       max-width: 495px;
     }
 
